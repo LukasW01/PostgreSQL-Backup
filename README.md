@@ -7,7 +7,7 @@ Two bash scripts to restore Dump/Restore 💾💿 a PostgreSQL-Database within a
 
 **Download the File/s**
 
-wget <link>  
+wget <https://github.com/>  
 
 **Give Executive permissions**
 
