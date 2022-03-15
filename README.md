@@ -25,4 +25,6 @@ chmod +x <file.sh>
     - Username
     - Database-Name
     - etc...
-- More Checks if the Restore/Dump was sucessfull
+- Check if the Restore/Dump was sucessfull
+- Custom File Paths
+- and much more!
