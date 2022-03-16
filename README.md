@@ -1,6 +1,6 @@
 # PostgreSQL-Backup
 
-Two bash scripts to restore Dump/Restore 💾💿 a PostgreSQL-Database within a Docker-Container 🐋
+Two bash scripts to Dump/Restore 💾💿 a PostgreSQL-Database within a Docker-Container 🐋
 
 
 # Usage
