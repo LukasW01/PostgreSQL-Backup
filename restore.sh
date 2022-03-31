@@ -5,14 +5,12 @@
 #Version:       1.0 (Beta)
 #Lizenz:        MIT
 
-clear
-
 echo "Wiederherstellen einer ProstgreSQL-Datenbank"
 echo
 
 if [ "$EUID" -ne 0 ]
   then
-    echo "Please run as root. To interact with the Docker Socket you need root privileges"
+    echo "Please run as root."
     sleep 3
     clear
   exit
