@@ -18,13 +18,13 @@ chmod +x <file.sh>
 ./<file.sh>
 
 
-# Feature changes
+# Planned improvements
 
 - More interactivty!
     - Which Container should be Dumped/Restored
     - Username
     - Database-Name
     - etc...
-- Check if the Restore/Dump was sucessfull
 - Custom File Paths
+- Check if the Restore/Dump was sucessfull (for now the skript just asumes that the dump was succesful)
 - and much more!
