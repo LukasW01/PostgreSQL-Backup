@@ -1,7 +1,8 @@
 # PostgreSQL-Backup
 
-Two bash scripts to Dump/Restore 💾💿 a PostgreSQL-Database within a Docker-Container 🐋
+Two bash scripts to Dump/Restore a PostgreSQL-Database within a Docker-Container 🐋
 
+Please note that **I** am not a professional with Bash. Feel free to commit your code and improve this Script.
 
 # Usage
 
