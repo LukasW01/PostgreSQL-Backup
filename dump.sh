@@ -5,14 +5,12 @@
 #Version: 	1.0 (Beta)
 #Lizenz:	MIT
 
-clear
-
 echo "Skript für ein pg_dump"
 echo
 
 #Check if Script got executed as root
 if [ "$EUID" -ne 0 ]
-  then echo "Please run as root. To interact with the Docker Socket you need root privileges"
+  then echo "Please run as root."
   sleep 3
   clear
   exit
