@@ -19,7 +19,6 @@ fi
 check_root() {
 echo "Please run as root!"
 sleep 3
-clear
 }
 
 dump() {
