@@ -25,7 +25,7 @@ dump() {
 docker exec synapse_postgresql_1 pg_dump -Fc -v --host=localhost --username=synapse --dbname=synapse -f /var/lib/postgresql/synapse-dump.sql
 }
 
-echo "Skript für ein pg_dump"
+echo "Script for a pg_dump"
 echo
 
 #Check if Script got executed as root
