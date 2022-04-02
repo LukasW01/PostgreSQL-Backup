@@ -25,5 +25,4 @@ chmod +x <file.sh>
     - Database-Name
     - etc...
 - Custom File Paths
-- Check if the Restore/Dump was sucessfull (for now the skript just asumes that the dump was succesful)
 - and much more!
