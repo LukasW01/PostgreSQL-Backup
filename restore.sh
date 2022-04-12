@@ -22,7 +22,7 @@ sleep 3
 }
 
 restore() {
-docker exec synapse_postgresql_1 pg_restore -v --no-owner --host=localhost --port=5432  --username=synapse --dbname=synapse /var/lib/postgresql/synapse-dump.sql
+docker exec <container> pg_restore -v --no-owner --host=localhost --port=5432  --username=<> --dbname=<> </path>
 }
 
 echo "Script to restore a PostgreSQL database"
@@ -34,7 +34,7 @@ if [ "$EUID" -ne 0 ]
   exit
         else
           #Copy DUMP-File out of */docker/synapse/backup*
-          cp /docker/synapse/backup/synapse-dump.sql /docker/synapse/db/synapse-dump.sql
+          cp </path> </path>
           #Restore with a DUMP-File
           restore
           #Check if the restoring was succesful
