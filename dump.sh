@@ -22,7 +22,7 @@ sleep 3
 }
 
 dump() {
-docker exec synapse_postgresql_1 pg_dump -Fc -v --host=localhost --username=synapse --dbname=synapse -f /var/lib/postgresql/synapse-dump.sql
+docker exec <container> pg_dump -Fc -v --host=localhost --username=<> --dbname=<> -f </path>
 }
 
 echo "Script for a pg_dump"
@@ -38,5 +38,5 @@ else
   #Check if DUMP was succesful :)
   check
   #Move Dump file
-  mv /docker/synapse/db/synapse-dump.sql /docker/synapse/backup/synapse-dump.sql
+  mv </path> </path>
 fi
