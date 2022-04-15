@@ -6,7 +6,7 @@ Two bash scripts to Dump/Restore a PostgreSQL-Database within a Docker-Container
 
 **Download the File/s**
 
-wget <https://github.com/>  
+wget https://raw.githubusercontent.com/LukasWig/PostgreSQL-Backup/main/dump.sh && wget https://raw.githubusercontent.com/LukasWig/PostgreSQL-Backup/main/restore.sh
 
 **Give Executive permissions**
 
