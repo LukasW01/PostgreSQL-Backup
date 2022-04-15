@@ -12,7 +12,7 @@ if [ $retval -ne 0 ]; then
     echo "Return code was not zero but $retval"
 else
     echo
-    echo "Die Datenbank sollte nun wiederhergestellt worden sein"
+    echo "The database should now have been restored"
 fi
 }
 
@@ -33,10 +33,10 @@ if [ "$EUID" -ne 0 ]
     check_root
   exit
         else
-          #Copy DUMP-File out of */docker/synapse/backup*
+          #Copy the DUMP from the backup folder to the database Docker volume
           cp </path> </path>
           #Restore with a DUMP-File
           restore
-          #Check if the restoring was succesful
+          #Check if the restoring was successful
           check
 fi
