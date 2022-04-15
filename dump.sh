@@ -12,7 +12,7 @@ if [ $retval -ne 0 ]; then
     echo "Return code was not zero but $retval"
 else
     echo
-    echo "Die Datenbank wurde erfolgreich gebackupt. Der Dump sollte erfolgreich ausgeführt worden sein."
+    echo "The database was successfully backed up. The dump should have completed successfully."
 fi
 }
 
@@ -33,7 +33,7 @@ if [ "$EUID" -ne 0 ]
   then check_root
   exit
 else
-  #Dump
+  #DUMP
   dump
   #Check if DUMP was succesful :)
   check
