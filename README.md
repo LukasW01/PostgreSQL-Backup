@@ -12,6 +12,11 @@ wget https://raw.githubusercontent.com/LukasWig/PostgreSQL-Backup/main/dump.sh &
 
 chmod +x <file.sh>
 
+**Edit parameters**
+
+Parameters are marked as <>
+
+
 **Execute Script with Root**
 
 ./<file.sh>
