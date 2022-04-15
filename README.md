@@ -18,7 +18,7 @@ chmod +x <file.sh>
 
 # Info
 
-I would call myself a beginner with BASH. I did this script in my free time, apart from school. If you'd like to improve the two scripts, feel free to do it :D
+I would call myself a beginner with BASH. I did this script in my free time, apart from school. If you'd like to improve the two scripts, feel free to do it 😄
 
 # Planned improvements
 
