@@ -21,6 +21,18 @@ Parameters are marked as <>
 
 ./<file.sh>
 
+# CronJob
+
+If you want to run the script regularly you can do this with a CronJob. Please note that the script must be executed as root. 
+
+This goes as folowing:
+
+> sudo crontab -e
+
+And add this line:
+
+> 0 0 * * *  /path/to/script/dump.sh
+
 # Info
 
 I would call myself a beginner with BASH. I did this script in my free time, apart from school. If you'd like to improve the two scripts, feel free to do it 😄
